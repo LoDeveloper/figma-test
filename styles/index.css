@@ -21,12 +21,18 @@ nav {
    font-family: "Roboto", sans-serif;
 }
 
-.nav-bar {
-  display: inline;
-}
+
+li {
+   display: inline;
+ }
 
 .log-in {
-   justify-content: end;
+   display: block;
+   background: none;
+   border: none;
+   font-family: "Roboto", sans-serif;
+   font-weight: bold;
+   font-style: normal;
 }
 
 .sign-up {
@@ -34,10 +40,14 @@ nav {
    height: 60px;
    margin-top: 30px;
    margin-right: 68px;
-   display: inline-block;
+   display: inline;
+   border: none;
    background-color: #4F56F1;
    color: #FFFFFF;
    border-radius: 6px;
+   font-family: "Roboto", sans-serif;
+   font-weight: bold;
+   font-style: normal;
 }
 
 section {
